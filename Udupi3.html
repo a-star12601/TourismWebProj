@@ -1,0 +1,509 @@
+<html>
+    <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="C:\HTML\bootstrap-5.1.1-dist/css/bootstrap.min.css">
+        <script src="C:\HTML\jquery-3.6.0.min.js"></script>
+        <script src="C:\HTML\bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script>
+
+            
+
+        </script>
+        <style>
+            *{
+                padding: 0;
+                margin:0;
+            }
+            @font-face {
+                font-family: Poppins;
+                src: url("Poppins-Medium.ttf");
+            }
+            @font-face {
+                font-family: Bebas;
+                src: url("Bebas-Regular.ttf");
+            }
+            @font-face {
+                font-family: Kaushan;
+                src: url("KaushanScript-Regular.ttf");
+            }
+            .container-fluid{
+                font-family: Poppins;
+                margin:0;
+                padding:0;
+                background-color: rgb(218, 218, 218);
+              }
+            .navbar{
+                border-radius: 0;
+                border:none;
+                padding: 2.5vh 1.5vw;
+                margin-bottom: 0;
+                
+            }
+            .nav-link{
+                display:block;
+                font-size: 3vh;
+                padding: 1.5vh 2vw;
+            }
+            .nav-link:hover{
+                color: green;
+            }
+            .c1{
+              height:30vw;
+            }
+            .Head{
+              margin:5px 0;
+              padding:3vh;
+              font-family: Kaushan;
+              font-size: 7vw;
+              text-align: center;
+              display:block;
+              background-image:linear-gradient(rgba(17, 38, 68, 0.7),rgba(17, 38, 68, 0.7)),url("Beaches/h1.jpg");
+              background-repeat: no-repeat;
+              color:white;
+            }
+            .BeachBlock{
+              margin: 0;
+              padding: 0;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+              text-align: center; 
+              border-bottom: solid 1px white;
+            }
+            .BeachBlock h2{
+              font-size: 10vh;
+            }
+            #b1{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("Temples/ananteshwara2.jpg");
+            }
+            #b2{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("KrishnaMatha.jpg");
+            }
+            #b3{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("Temples/chandramouleshwara1.jpg");
+            }
+            #b4{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("Temples/anegudde1.jpg");
+            }
+            .links{
+              text-decoration: none;
+              color:white;
+            }
+            .btn{
+            font-size: 85%; 
+            padding: 1.5vw 3.4vw;
+            background-color: rgb(192,31,46); 
+            text-decoration: none;
+            font-weight: bold; 
+            color: white;
+            border-radius: 0;
+            margin: 3vw 0 5vw;
+          }
+          .BeachHead{
+            font-family: Bebas;
+            font-size: 8vw;
+            padding:5vw 0 0 0;
+          }
+          .BeachText{
+            margin:0;
+            padding:0vh 7vw;
+          }
+          .card{
+            border-radius: 0;
+            box-shadow: 2px 1px 7px rgba(0,0,0,0.54);
+          }
+          .car{
+            
+            box-shadow: 2px 1px 7px rgba(0,0,0,0.54);
+          }
+
+        </style>
+
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- NAVBAR AREA -->
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Udupi Tourism</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav1" 
+                    aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <!-- Navbar links -->
+                    <div class="collapse navbar-collapse justify-content-end" id="nav1">
+                        <ul class="nav navbar-nav">
+                            <li><a class="nav-link px-2" href='AboutUdupi.html'>Home</a></li><li class="nav-item dropdown">
+                              <a class="nav-link px-2 dropdown-toggle" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Places To Visit
+                              </a>
+                              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navDrop">
+                                <li><a class="dropdown-item" href="Udupi1.html">Beaches</a></li>
+                                <li><a class="dropdown-item" href="Udupi3.html">Temples</a></li>
+                                <li><a class="dropdown-item" href="#">Attractions</a></li>
+                              </ul>
+                            </li>
+                            <li><a class="nav-link px-2" href='Udupi2.html'>Cultures</a></li>
+                            <li><a class="nav-link px-2" href='#'>News</a></li>
+                            <li><a class="nav-link px-2" href='#'>Reviews</a></li>
+                            <li><a class="nav-link px-2" href='#'>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- CAROUSEL AREA -->
+            <div id="carousel1" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="c1 carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Temples/ananteshwara2.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="KrishnaMatha.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Temples/anegudde1.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Temples/chandramouleshwara1.jpg" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- BODY AREA  -->
+              <h1 class='Head'>Temples</h1>
+              <!-- SHRI ANANTHESHWARA TEMPLE -->
+              <div id='b1' class="BeachBlock">
+                <h2 class='text-light BeachHead'>SHRI ANANTHESHWARA TEMPLE</h2>
+                <p class='text-secondary text-light BeachText'>Shri Anantheswara Temple is the most ancient temple in Udupi district in the village of Shivalli, which according to 
+                legend derived its name from this temple. The Brahmins in the village are known as Shivalli Brahmins. While there is a 
+                linga in the inner sanctum and the temple is regarded as that of Lord Shiva, Vaishnavites worship the image as both 
+                Shiva and Vishnu. During temple processions, the idol that is taken out is of Lord Ananthapadmanaba, which is a sign 
+                that the temple is the abode of both Shiva and Vishnu.</p>
+                <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#MalpeMore" aria-expanded="false" aria-controls="MalpeMore">READ MORE</button>
+              </div>
+              <!-- MALPE COLLAPSE -->
+                <div class="collapse" id="MalpeMore">
+                  <div class="row row-cols-1 row-cols-md-3 g-4 m-1 mb-4">
+                    <div class="col-md-8">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">About</h5>
+                          <ul>
+                            <li class='m-1'>located about 0.4 kilometers from Udupi city bus stand</li>
+                            <li class='m-1'>Situated inside Krishna Matta Complex</li>
+                            <li class='m-1'>Located within the heart of Udupi</li>
+                            <li class='m-1'>Located about 3 kms from Udupi Railway station</li>
+                            <li class='m-1'>Malpe has a considerable population engaged in fisheries and tile manufacturing.</li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>
+                    <!---<div class="col">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">Facilities</h5>
+                          <ul>
+                            <li class='m-1'></li>
+                            <li class='m-1'>Ananth Yathri Nivas</li>
+                            <li class='m-1'>Lodging</li>
+                            <li class='m-1'>Parasailing</li>
+                            <li class='m-1'>Speed Boat Cruise to St. Mary’s Island</li>
+                            <li class='m-1'>Surfing</li>
+                            <li class='m-1'>Rappelling</li>
+                            <li class='m-1'>Beach Sports</li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>--->
+                    <div class="col-md-4">
+                      <div id="carousel2" class="carousel slide car" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Beaches/m1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Beaches/m2.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Beaches/m3.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                  </div>
+              </div>
+              <!-- SRI KRISHNA MATHA  -->
+              <div id='b2' class="BeachBlock">
+                <h2 class='text-light BeachHead'>SRI KRISHNA MATHA</h2>
+                <p class='text-secondary text-light BeachText'>Astha means ‘eight’ and ‘matha’ means monastery. The Astha mathas are eight monasteries of Hinduism founded by Saint Madhvacharya, founder of the Dvaita school of Hindu philosophy. Out of these eight mathas, the Sri Krishna matha is the most famous and was founded in the 13-century.
+                Each of the mathas was assigned a deity for daily worship. These deities were the four avatars of Lord Vishnu, namely, Krishna (Vittala), Rama, Narasimha, and Varaha.
+                These mathas are eight in number because it is believed that eight is the favourite number of Lord Krishna who was also the eighth child of Vasudeva and Devaki.
+                The Sri Krishna Matha has the unique feature of being able to be viewed from nine different holes known as “Navagraha Kitiki”. The entire math complex is full of ornate and elaborate carvings..
+                </p>
+                <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#MaraMore" aria-expanded="false" aria-controls="MaraMore">READ MORE</button>
+              </div>
+              <!-- MARAVANTHE COLLAPSE -->
+                <div class="collapse" id="MaraMore">
+                  <div class="row row-cols-1 row-cols-md-3 g-4 m-1 mb-4">
+                    <div class="col-md-8">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">About</h5>
+                          <ul>
+                            <li class='m-1'>located at the heart of Udupi</li>
+                            <li class='m-1'> A drive along the NH 66 that runs through the village offers a 
+                              one of a kind view with the beach on one side and the river on the other</li>
+                              <li class='m-1'>Outlook Traveler has rated Maravanthe as Karnataka’s most beautiful beach in 2005.</li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>
+                    <!---<div class="col">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">Facilities</h5>
+                          <ul>
+                            <li class='m-1'>Restaurants</li>
+                            <li class='m-1'>Resorts</li>
+                            <li class='m-1'>Water Sports</li>
+                            <li class='m-1'>Parasailing</li>
+                            <li class='m-1'>Surfing</li>
+                            <li class='m-1'>Beach Sports</li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>--->
+                    <div class="col-md-4">
+                      <div id="carousel3" class="carousel slide car" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Beaches/mara1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Beaches/mara2.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Beaches/mara3.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                  </div>
+              </div>
+              <!-- SRI CHANDRAMOULEESHWARA TEMPLE  -->
+              <div id='b3' class="BeachBlock">
+                <h2 class='text-light BeachHead'>SRI CHANDRAMOULEESHWARA TEMPLE</h2>
+                <p class='text-secondary text-light BeachText'>Adjacent to the Shri Anantheswara Temple and smaller in size, this temple is an ancient place about which few historical details can be found. 
+                According to legend, the Moon God had performed at the spot where the temple stands today and pleased with this, Lord Shiva appeared in front of him and granted his wish. The Chandramouleeshwara Temple also surfaced at this spot to commemorate this event.
+                According to the literary work Madhwa Vijaya, the temple used to be called Moodu Devalaya as it to the east (Moodu) of the Anantheswara Temple. It is said that visitors should first visit the Chandramouleeshwara Temple and then proceed to the Anantheswara Temple.</p>
+                  <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#KaupMore" aria-expanded="false" aria-controls="KaupMore">READ MORE</button>
+                </div>
+                <!-- CHANDRAMOULEESHWARA COLLAPSE -->
+                  <div class="collapse" id="KaupMore">
+                    <div class="row row-cols-1 row-cols-md-3 g-4 m-1 mb-4">
+                      <div class="col-md-8">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">About</h5>
+                            <ul>
+                              <li class='m-1'>located about 13 km south of Udupi </li>
+                              <li class='m-1'>Kaup beach is famously known to house an old lighthouse that was apparently built in the year 1901</li>
+                              <li class='m-1'> Kaup is the base for two Hindu temples dedicated to the Goddess Mariamman</li>
+                            </ul> 
+                          </div>
+                        </div>
+                      </div>
+                      <!---<div class="col">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">Facilities</h5>
+                            <ul>
+                              <li class='m-1'>Restaurants</li>
+                              <li class='m-1'>Resorts</li>
+                              <li class='m-1'>Jet Ski Rides</li>
+                              <li class='m-1'>Parasailing</li>
+                              <li class='m-1'>Surfing</li>
+                              <li class='m-1'>Beach Sports</li>
+                            </ul> 
+                          </div>
+                        </div>
+                      </div>--->
+                      <div class="col-md-4">
+                        <div id="carousel4" class="carousel slide car" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="Beaches/k1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="Beaches/k2.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="Beaches/k3.jpg" class="d-block w-100">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div></div>
+                    </div>
+                </div>
+                <!-- ANEGUDDE  -->
+              <div id='b4' class="BeachBlock">
+                <h2 class='text-light BeachHead'>ANEGUDDE SRI VINAYAKA TEMPLE</h2>
+                <p class='text-secondary text-light BeachText'> Anegudde Vinayaka Temple is dedicated to Lord Ganesha. Anegudde is rewarded one of the seven 'Mukti Sthalas' of Karnataka or Parashurama kshetras, which are believed to be created by sage Parashurama. Anegudde is the combination of two words - 'Aane' meaning 'Elephant' and 'Gudde', which stands for 'hillock' as it is the abode of the elephant-headed god, Lord Vinayaka.
+
+                  Anegudde is also popularly called Kumbashi. The name Kumbhashi is said to be derived from the demon Kumbhasura. According to the mythology, when drought hit this area, Sage Agasthya performed penance to appease the Rain, God. 
+                  During the penance, demon Kumbhasura started troubling the sages. Bheemasena gets a weapon from Lord Ganesha to kill Kumbahasura and assassinate him at this place. 
+                  The temple at Anegudde is dedicated to Lord Vinayaka (Ganesha). </p>
+                  <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#PaduMore" aria-expanded="false" aria-controls="PaduMore">READ MORE</button>
+                </div>
+                <!-- ANEGUDDE COLLAPSE -->
+                  <div class="collapse" id="PaduMore">
+                    <div class="row row-cols-1 row-cols-md-2  g-4 m-1 mb-4">
+                      <div class="col-md-8">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">About</h5>
+                            <ul>
+                              <li class='m-1'>located about 25 kilometers from Udupi</li>
+                              <li class='m-1'>Padubidri is the second beach in Karnataka that received the blue flag certification</li>
+                              <li class='m-1'>famous for the Dakkebali ritual held once in two years</li>
+                            </ul> 
+                          </div>
+                        </div>
+                      </div>
+                     <!---<div class="col">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title">Facilities</h5>
+                            <ul>
+                              <li class='m-1'>Fairs</li>
+                              <li class='m-1'>Resorts</li>
+                              <li class='m-1'>Jet Ski Rides</li>
+                              <li class='m-1'>Parasailing</li>
+                              <li class='m-1'>Musical programs</li>
+                              <li class='m-1'>Surfing</li>
+                              <li class='m-1'>Competitions</li>
+                              <li class='m-1'>Tournaments</li>
+                            </ul> 
+                          </div>
+                        </div>
+                      </div>--->
+                      <div class="col-md-4">
+                        <div id="carousel5" class="carousel slide car" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="Beaches/p1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="Beaches/p2.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="Beaches/p3.jpg" class="d-block w-100">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div></div>
+                    </div>
+                </div>
+
+
+              <!-- FOOTER AREA  -->
+              <footer class="pt-4  pt-md-5 border-top bg-dark">
+                <div class="row m-0">
+                  <div class="px-4 col-12 col-md-4">
+                    <h5 class='text-light'>QUICK LINKS</h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Home</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">News</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Reviews</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="px-4 col-12 col-md-4">
+                    <h5 class='text-light'>Resources</h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                    </ul>
+                  </div>
+                  <div class="px-4 col-12 col-md-4">
+                    <h5 class='text-light'>About</h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </footer>
+            </div>
+        </div>
+    </body>
+</html>

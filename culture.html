@@ -1,0 +1,403 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/temples.css">
+        <link rel="icon" href="UTlogoicon.png" type="image/x-icon">
+
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Culture</title>
+        <script>
+
+            
+
+        </script>
+        <style>
+            
+            .Head{
+              margin:5px 0;
+              padding:3vh;
+              font-family: Kaushan;
+              font-size: 7vw;
+              text-align: center;
+              display:block;
+              background-image:linear-gradient(rgba(17, 38, 68, 0.7),rgba(17, 38, 68, 0.7)),url("Beaches/h1.jpg");
+              background-repeat: no-repeat;
+              color:white;
+            }
+            .CulBlock{
+              margin: 0;
+              padding: 0;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+              text-align: center; 
+              border-bottom: solid 1px white;
+            }
+            #t1{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("Culture/Yak.jpg");
+            }
+            #t2{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("Culture/Huli.jpg");
+            }
+            #t3{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("Culture/vit.jpg");
+            }
+            #t4{
+              background-image:linear-gradient(rgba(17, 17, 17, 0.5),rgba(17, 17, 17, 0.5)),url("Culture/kam.jpg");
+            }
+            .links{
+              text-decoration: none;
+              color:white;
+            }
+            .btn{
+            font-size: 85%; 
+            padding: 1.5vw 3.4vw;
+            background-color: rgb(192,31,46); 
+            text-decoration: none;
+            font-weight: bold; 
+            color: white;
+            border-radius: 0;
+            margin: 3vw 0 5vw;
+          }
+          .CulHead{
+            font-family: Bebas;
+            font-size: 9vw;
+            padding:5vw 0 0 0;
+          }
+          .CulText{
+            margin:0;
+            padding:0vh 7vw;
+          }
+          .card{
+            border-radius: 0;
+            box-shadow: 2px 1px 7px rgba(0,0,0,0.54);
+          }
+          .car{
+            
+            box-shadow: 2px 1px 7px rgba(0,0,0,0.54);
+          }
+          
+          
+
+        </style>
+
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- NAVBAR AREA -->
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Udupi Tourism</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav1" 
+                    aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="nav1">
+                        <ul class="nav navbar-nav">
+                          <li><a class="nav-link px-2" href='home.html'>Home</a></li><li class="nav-item dropdown">
+                            <a class="nav-link px-2 dropdown-toggle" href="#" id="navDrop" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Places To Visit
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navDrop">
+                              <li><a class="dropdown-item" href='beaches.html'>Beaches</a></li>
+                              <li><a class="dropdown-item" href="temples.html">Temples</a></li>
+                              <li><a class="dropdown-item" href="wildlife.html">Wildlife</a></li>
+                            </ul>
+                          </li>
+                          <li><a class="nav-link px-2" href='culture.html'>Cultures</a></li>
+                          <li><a class="nav-link px-2" href='gallery.html'>Gallery</a></li>
+                          <li><a class="nav-link px-2" href='login.php'>Reviews</a></li>
+                          <li><a class="nav-link px-2" href='contact-us.php'>Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- CAROUSEL AREA -->
+            <div id="carousel1" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="c1 carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Car1.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Car2.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Car3.jpg" class="d-block w-100">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Car4.jpg" class="d-block w-100">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- BODY AREA  -->
+              <h1 class='Head'>Cultures</h1>
+              <!-- YAKSHAGANA -->
+              <div id='t1' class="CulBlock">
+                <h2 class='text-light CulHead'>YAKSHAGANA</h2>
+                <p class='text-secondary text-light CulText'>Yakshagana is a traditional folk dance form popular in coastal Karnataka
+                  districts. Watching Yakshagana performance is a treat to the senses due to the amalgamation of unique costumes,
+                  rhythmic music and unique performance involving dialogues, music, dance and action.</p>
+                <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#YakMore" aria-expanded="false" aria-controls="YakMore">READ MORE</button>
+              </div>
+              <!-- YAKSHA COLLAPSE -->
+                <div class="collapse" id="YakMore">
+                  <div class="row row-cols-1 row-cols-md-2 g-4 m-1 mb-4">
+                    <div class="col-md-8">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">About</h5>
+                          <ul>
+                            <li class='my-2'> Each performance focuses on a sub-story from ancient Hindu epics
+                              of Ramayana or Mahabharata</li>
+                            <li class='my-2'>The show consists of both stage performances by talented artists and commentary 
+                              accompanied by traditional music</li>
+                            <li class='my-2'>Musical instruments used in Yakshagana include Chande (drums), Harmonium, Maddale,
+                                   Taala (mini metal clappers) and flute among others. </li>
+                            <li class='my-2'>Costumes used in Yakshagana are very unique and elaborate. Large size head gear, 
+                                     coloured faces, elaborate costumes all over the body and musical beads on the legs </li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div id="carousel2" class="carousel slide car" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Culture/y1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/y2.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/y3.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                  </div>
+              </div>
+              <!-- HULI VESHA -->
+              <div id='t2' class="CulBlock">
+                <h2 class='text-light CulHead'>HULI VESHA</h2>
+                <p class='text-secondary text-light CulText'>Huli Vesha or Tiger faced dance is a dance form unique to coastal Karnataka.
+                   Huli Vesha is performed by local youth during the Navratri Festival</p>
+                <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#HuliMore" aria-expanded="false" aria-controls="HuliMore">READ MORE</button>
+              </div>
+              <!-- HULI COLLAPSE -->
+                <div class="collapse" id="HuliMore">
+                  <div class="row row-cols-1 row-cols-md-2 g-4 m-1 mb-4">
+                    <div class="col-md-8">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">About</h5>
+                          <ul>
+                            <li class='my-2'> Huli Vesha is performed to pay tribute to Goddess Durga, who is often known for her aggressive stance,
+                               capable of keeping evil forces away from her devotees   </li>
+                            <li class='my-2'>Huli Vesha performance often involves a group of people dressing up in tiger costume- tiger face masks or paintings,
+                               tiger stripes on the body, accompanied by yellow or orange coloured shorts</li>
+                            <li class='my-2'>The group moves on the main streets of the town, dancing, accompanied by drums and music, entertaining the public on the way,
+                               at times collecting donations from whoever offers the same </li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div id="carousel3" class="carousel slide car" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Culture/h1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/h2.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/h3.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                  </div>
+              </div>
+              <!-- VITLA PINDI -->
+              <div id='t3' class="CulBlock">
+                <h2 class='text-light CulHead'>VITLA PINDI</h2>
+                <p class='text-secondary text-light CulText'>Vitla Pindi, also known as Mosaru Kudike is a popular festival in Udupi city, Coastal Karnataka. Vitla Pindi helps people recall childhood antics of Lord Krishna
+                   and is celebrated during Srikrishna Janmastami, which falls during the month of August-September.</p>
+                <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#VitMore" aria-expanded="false" aria-controls="VitMore">READ MORE</button>
+              </div>
+              <!-- HULI COLLAPSE -->
+                <div class="collapse" id="VitMore">
+                  <div class="row row-cols-1 row-cols-md-2 g-4 m-1 mb-4">
+                    <div class="col-md-8">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">About</h5>
+                          <ul>
+                            <li class='my-3'> Vitla Pindi or Mosaru Kudike is often celebrated as a championship that tests physical endurance and balancing skills of participants. </li>
+                            <li class='my-3'>A clay pot filled with milk or milk products such as curd is hung at an elevation over the streets. </li>
+                            <li class='my-3'>Participating teams need to form human pyramids, let one set climb on another till a person reaches high enough to be able to smash the clay pot. 
+                              Team managing this in the shortest time is declared the winner.                            </li>
+                            <li class='my-3'> Vitla Pindi is the best scene in Udupi town during Srikrishna Janmastami celebrations.</li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div id="carousel4" class="carousel slide car" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Culture/v1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/v2.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/v3.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                  </div>
+              </div>
+              <!-- KAMBALA -->
+              <div id='t4' class="CulBlock">
+                <h2 class='text-light CulHead'>KAMBALA</h2>
+                <p class='text-secondary text-light CulText'>Kambala is a buffalo race event popular in Coastal Karnataka districts. Kambala is a spectacular sport and entertainment
+                   event for villagers and is equally popular with tourists and photographers.</p>
+                <button class='btn' type="button" data-bs-toggle="collapse" data-bs-target="#KamMore" aria-expanded="false" aria-controls="KamMore">READ MORE</button>
+              </div>
+              <!-- HULI COLLAPSE -->
+                <div class="collapse" id="KamMore">
+                  <div class="row row-cols-1 row-cols-md-2 g-4 m-1 mb-4">
+                    <div class="col-md-8">
+                      <div class="card h-100">
+                        <div class="card-body">
+                          <h5 class="card-title">About</h5>
+                          <ul>
+                            <li class='my-3'>  Buffalo owners and farmers in the region take great care of
+                               their buffalos and best of them are well fed, oiled and nurtured for a race in Kambala. </li>
+                            <li class='my-3'> Two teams of buffaloes along with their jockeys race towards the finish line on the two parallel race tracks. Race goes on all day and winners qualify for next rounds.</li>
+                            <li class='my-3'>The best of Kambala Buffaloes can cover a 140-meter race track in less than 12 seconds </li>
+                            <li class='my-3'>The jockey or Kambala runner is the man commanding the buffaloes and races along with them.The runner stands on a wooden plank (known as halage) supported to the setup that holds two buffaloes together (called Negilu).</li>
+                          </ul> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div id="carousel5" class="carousel slide car" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="Culture/k1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/k2.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="Culture/k3.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div></div>
+                  </div>
+              </div>
+
+
+              <!-- FOOTER AREA  -->
+              <footer class="py-4  py-md-4  border-top bg-dark">
+                <div class="row m-0">
+                  <div class="px-4 col-12 col-md-4">
+                    <h5 class='text-light foot-head'>QUICK LINKS</h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="home.html">Home</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="gallery.html">Gallery</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="login.php">Reviews</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="contact-us.php">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="px-4 col-12 col-md-4">
+                    <h5 class='text-light foot-head'>PLACES TO VISIT</h5>
+                    <ul class="list-unstyled ">
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="beaches.html">Beaches</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="temples.html">Temples</a></li>
+                      <li class="mb-1"><a class="link-secondary text-decoration-none" href="wildlife.html">Wildlife</a></li>
+                    </ul>
+                  </div>
+              
+                  <div class="px-4 col-12 col-md-4">
+                    <h5 class='text-light foot-head'>MAINTAINED BY</h5>
+                    <p class='text-secondary'>Anuroop and Rahul<br>
+                      5th Sem CSE<br>
+                      NMAMIT,Nitte</p>
+                  </div>
+                </div>
+              </footer>
+            </div>
+        </div>
+    </body>
+</html>
